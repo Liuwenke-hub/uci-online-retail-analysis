@@ -1,0 +1,23 @@
+# ----- 数据（体积大，不入库，需自行从 UCI 下载） -----
+OnlineRetail.csv
+*.csv
+
+# ----- 生成产物（可由代码复现，选择性忽略以减小仓库） -----
+outputs/images/
+outputs/figs/
+outputs/plotly.min.js
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ----- 工具/系统 -----
+.workbuddy/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
